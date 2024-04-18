@@ -1,0 +1,23 @@
+import { useAuth } from '../context/AuthUserContext';
+import { Container, Row, Col } from 'reactstrap';
+
+const DashboardComponent = () => {
+  const { authUser, loading } = useAuth();
+
+  if (loading) {
+    return <Container>Loading...</Container>;
+  }
+
+  return (
+    <Container>
+      <Row>
+        <Col>
+          <h1>Dashboard</h1>
+          <p>Welcome, {authUser?.name}!</p>
+        </Col>
+      </Row>
+    </Container>
+  );
+};
+
+export default DashboardComponent;

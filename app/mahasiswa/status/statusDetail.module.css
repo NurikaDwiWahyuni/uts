@@ -1,0 +1,29 @@
+/* statusDetail.module.css */
+
+.bg {
+    background-color: #aa6f73;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.statusItem {
+    background-color: #f4e0b5;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.statusItem strong {
+    font-weight: bold;
+    margin-right: 5px;
+}

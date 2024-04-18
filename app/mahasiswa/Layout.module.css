@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .userName {
+    margin-left: auto;
+  }
+  
+  .main {
+    flex-grow: 1;
+  }
+  

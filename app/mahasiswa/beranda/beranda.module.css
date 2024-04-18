@@ -1,0 +1,38 @@
+.bg {
+  background-color:#aa6f73;
+  height: 100vh;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.welcome h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #aa6f73;
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Memposisikan konten secara horizontal di tengah */
+  align-items: center; /* Memposisikan konten secara vertikal di tengah */
+  height: 100vh; /* Menggunakan tinggi viewport agar konten berada di tengah vertikal */
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+/* Atur lebar maksimum card sesuai kebutuhan */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+
