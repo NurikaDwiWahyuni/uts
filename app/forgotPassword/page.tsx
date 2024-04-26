@@ -20,7 +20,7 @@ const ForgotPassword: React.FC = () => {
     <div className={styles.container}>
     <h1 className={styles.title}>SKIPTIF</h1>
     <form onSubmit={handleResetPassword} className={styles.form}>
-    <p className={styles.ket}>Enter your email and we'll send you a link to reset your password</p>
+    <p className={styles.ket}>Enter your email and well send you a link to reset your password</p>
       <label className={styles.label} htmlFor="email">
           Email:
         </label>

@@ -105,7 +105,7 @@ const Login: React.FC = () => {
           </div>
           <div className={styles.linkText}>
             <div className={styles.linkTextInner}>
-              <span className={styles.dontHaveAccount}>Don't have an account?</span>
+              <span className={styles.dontHaveAccount}>Dont have an account?</span>
             </div>
             <Link href="/register" legacyBehavior>
               <a className={styles.linkRegister}>Register here</a>
