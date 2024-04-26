@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Navbar from '../navbar';
 import styles from './mahasiswa.module.css';
+import Link from 'next/link'
 import { retrieveDataPendaftaran } from '../../lib/firebase/mahasiswaService';
 
 const DaftarPendaftaran: React.FC = () => {
@@ -53,7 +54,9 @@ const DaftarPendaftaran: React.FC = () => {
                 <td>{pendaftaran.judulTA}</td>
                 <td>Waiting</td>
                 <td>
-                  <button onClick={() => handleDetailClick(pendaftaran.id)}>Detail</button>
+                <Link href="/koordinator/mahasiswa/detail" legacyBehavior>
+                 <a>Detail</a>
+                </Link>
                 </td>
               </tr>
             ))}

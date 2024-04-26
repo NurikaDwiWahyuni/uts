@@ -13,7 +13,7 @@ const Beranda: React.FC<WelcomeProps> = ({ username }) => {
       <Navbar />
       <div className={styles.card}>
         <div className={styles.welcome}>
-          <h1>Welcome, {username}!</h1>
+          <h1>Welcome, Jamal{username}!</h1>
         </div>
       </div>
     </div>

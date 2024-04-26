@@ -38,12 +38,16 @@ const Login: React.FC = () => {
         if (email === "12250120360@students.uin-suska.ac.id" && password === "nurika123") {
           // Jika sesuai, arahkan pengguna ke halaman tertentu
           window.location.href = "/koordinator/beranda";
-        } else {
-          // Jika tidak sesuai, tangani login seperti biasa
-          // Misalnya, jalankan logika login dari API atau lakukan validasi lainnya
-          // Di sini Anda bisa menampilkan pesan kesalahan jika kredensial tidak cocok
-          setLoginError('Email or password is incorrect');
-        }
+        } else if (email === "jamal@gmail.com" && password === "jamal123") {
+          // Jika sesuai, arahkan pengguna ke halaman tertentu
+          window.location.href = "/mahasiswa/beranda";
+        
+      } else {
+        // Jika tidak sesuai, tangani login seperti biasa
+        // Misalnya, jalankan logika login dari API atau lakukan validasi lainnya
+        // Di sini Anda bisa menampilkan pesan kesalahan jika kredensial tidak cocok
+        setLoginError('Email or password is incorrect');
+      }
       }
     } catch (error) {
       console.error('Error during login:', error);

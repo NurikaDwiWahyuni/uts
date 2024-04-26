@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
     <nav className={styles.navbar}>
       <div className={styles.navbarContainer}>
         
-        <h1 className={styles.navbarTitle}>SIPTATIF</h1>
+        <h1 className={styles.navbarTitle}>SKRIPTIF</h1>
         
         <ul>
 
@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
             </Link>
           </li>
           <li>
-            <Link href="/koordinator/dospem" legacyBehavior>
+            <Link href="/koordinator/dospem/daftarDosen" legacyBehavior>
               <a
                 className={`${styles.navbarItem} ${activePage === 'lecturer' ? styles.active : ''}`}
                 onClick={() => handleSetActivePage('lecturer')}
@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
             </Link>
           </li>
           <li>
-            <Link href="/koordinator/dospem" legacyBehavior>
+            <Link href="/koordinator/dospeng/daftarDosen" legacyBehavior>
               <a
                 className={`${styles.navbarItem} ${activePage === 'status' ? styles.active : ''}`}
                 onClick={() => handleSetActivePage('status')}

@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
     <nav className={styles.navbar}>
       <div className={styles.navbarContainer}>
         
-        <h1 className={styles.navbarTitle}>SIPTATIF</h1>
+        <h1 className={styles.navbarTitle}>SKRIPTIF</h1>
         
         <ul>
 
@@ -55,18 +55,18 @@ const Navbar: React.FC = () => {
             </Link>
           </li>
           <li>
-            <Link href="/lecturer" legacyBehavior>
+            <Link href="/mahasiswa/dosen" legacyBehavior>
               <a
                 className={`${styles.navbarItem} ${activePage === 'lecturer' ? styles.active : ''}`}
                 onClick={() => handleSetActivePage('lecturer')}
               >
                 <HiUserGroup />
-                Lecturer
+                Dosen Pembimbing
               </a>
             </Link>
           </li>
           <li>
-            <Link href="/status" legacyBehavior>
+            <Link href="/mahasiswa/status" legacyBehavior>
               <a
                 className={`${styles.navbarItem} ${activePage === 'status' ? styles.active : ''}`}
                 onClick={() => handleSetActivePage('status')}

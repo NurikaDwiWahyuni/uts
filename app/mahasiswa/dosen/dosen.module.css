@@ -1,0 +1,45 @@
+/* dosen.module.css */
+.bg {
+    background-color: #aa6f73;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 60%;
+    margin: ;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+    margin-left: 60px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #aa6f73;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
